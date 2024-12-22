@@ -1,0 +1,167 @@
+/* Set the background color for the body */
+body {
+    background-color: #051622; /* Very dark blue */
+    color: white; /* White text color for better contrast */
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #051622; /* Dark blue for the header */
+    padding: 20px;
+    color: white;
+}
+
+/* Section styling for "View Projects" and others */
+section {
+    padding: 20px;
+    background-color: #1ba098; /* Teal for section background */
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#home {
+    text-align: center;
+    background-color: #051622; /* Very dark blue for the home section */
+    padding: 40px 0;
+}
+
+/* Project Section Styling */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #051622; /* Dark blue for project listing background */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.project {
+    background-color: #1ba098; /* Teal background for project cards */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: white;
+}
+
+.project ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project ul li {
+    background-color: #deb992; /* Beige color for technologies list */
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1ba098; /* Teal background for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #deb992; /* Beige color for button hover */
+}
+
+/* More Projects button */
+.more-projects button {
+    background-color: #1ba098; /* Teal background for the "Show More" button */
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.more-projects button:hover {
+    background-color: #deb992; /* Beige color for hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #051622; /* Very dark blue for footer */
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Container Styling */
+.container {
+    padding: 20px;
+}
+
+/* Chatbot Section Styling */
+#chatbot {
+    background-color: #1ba098; /* Teal for chatbot background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+/* Chatbot messages */
+.chatbot-container {
+    background-color: #1ba098; /* Teal for the chatbot container */
+    color: white;
+}
+
+.chatbot-header {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.chatbot-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #051622; /* Dark blue for chatbot message background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-message, .ai-message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.user-message {
+    background-color: #deb992; /* Beige for user message */
+    color: white;
+}
+
+.ai-message {
+    background-color: #1ba098; /* Teal for AI message */
+    color: white;
+}
+
+/* Button styling for chatbot */
+#chatbot-input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#chatbot-send {
+    padding: 10px 20px;
+    background-color: #1ba098; /* Teal for send button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#chatbot-send:hover {
+    background-color: #deb992; /* Beige for hover */
+}
